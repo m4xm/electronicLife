@@ -510,7 +510,7 @@ class LandAnimal(Animal):
         returned for destruction.
         :return: a deceased instance of a Creature if a whole Creature died,
         True if part of a Creature was eaten,
-        None if none of the above occured
+        None if none of the above occurred
         """
         env = self._tile.env_rings[0]
         eatable_prey = [
